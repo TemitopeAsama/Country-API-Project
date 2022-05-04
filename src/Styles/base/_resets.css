@@ -25,6 +25,7 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   font-family: 'Nunito Sans', sans-serif;
+  font-display: swap
 }
 /*
   6. Improve media defaults
