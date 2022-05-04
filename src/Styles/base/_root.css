@@ -1,0 +1,66 @@
+:root {
+	/* LIGHT MODE COLORS */
+	--light-text: hsl(200, 15%, 8%);
+	--light-bg: hsl(0, 0%, 98%);
+	--light-input: hsl(0, 0%, 52%);
+	--light-element: hsl(0, 0%, 100%);
+	--light-header-shadow: rgb(100 100 111 / 20%) 3px 0px 20px 2px;
+	--light-nav-shadow: rgb(100 100 111 / 20%) 3px 0px 20px 2px;
+	--light-search-icon: url("/src/Icons/search-icon-dark.png");
+	--light-filter-icon: url("/src/Icons/arrow-icon-dark.png");
+
+	/* DARK MODE COLORS */
+	--dark-text: hsl(0, 0%, 100%);
+	--dark-bg: hsl(207, 26%, 17%);
+	--dark-input: hsl(200, 15%, 8%);
+	--dark-element: hsl(209, 23%, 22%);
+	--dark-header-shadow: rgb(10 10 12 / 20%) 3px 0px 20px 2px;
+	--dark-nav-shadow: rgb(0 0 0 / 16%) 3px 0px 7px 0px, rgb(0 0 0 / 6%) 0px 0px 0px 1px;
+	--dark-search-icon: url("/src/Icons/search-icon-light.png");
+	--dark-filter-icon: url("/src/Icons/arrow-icon-light.png");
+
+	/* MODULAR SCALE */
+
+	--ratio: 1.5;
+	--s-6: calc(var(--s-5) / var(--ratio));
+	--s-5: calc(var(--s-4) / var(--ratio));
+	--s-4: calc(var(--s-3) / var(--ratio));
+	--s-3: calc(var(--s-2) / var(--ratio));
+	--s-2: calc(var(--s-1) / var(--ratio));
+	--s-1: calc(var(--s0) / var(--ratio));
+	--s0: 1rem;
+	--s1: calc(var(--s0) * var(--ratio));
+	--s2: calc(var(--s1) * var(--ratio));
+	--s3: calc(var(--s2) * var(--ratio));
+	--s4: calc(var(--s3) * var(--ratio));
+	--s5: calc(var(--s4) * var(--ratio));
+	--s6: calc(var(--s5) * var(--ratio));
+}
+
+[data-theme="light"] {
+	--text: var(--light-text);
+	--bg: var(--light-bg);
+	--input: var(--light-input);
+	--element: var(--light-element);
+	--header-shadow: var(--light-header-shadow);
+	--nav-shadow: var(--light-nav-shadow);
+	--bg-filter: var(--light-filter-icon);
+	--bg-search: var(--light-search-icon);
+}
+
+[data-theme="dark"] {
+	--text: var(--dark-text);
+	--bg: var(--dark-bg);
+	--input: var(--dark-input);
+	--element: var(--dark-element);
+	--header-shadow: var(--dark-header-shadow);
+	--nav-shadow: (--dark-nav-shadow);
+	--bg-filter: var(--dark-filter-icon);
+	--bg-search: var(--dark-search-icon);
+}
+
+.App {
+	background-color: var(--bg);
+	height: 100%;
+}
+

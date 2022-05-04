@@ -1,0 +1,26 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: calc(var(--s-1) + 1vw) calc(var(--s0) + 3vw);
+	background-color: var(--element);
+	color: var(--text);
+	box-shadow: var(--header-shadow);
+}
+
+header > h2 {
+	font-size: calc(.6rem + 1vw);
+	font-weight: 800;
+}
+
+header > button {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	border: none;
+	font-size: calc(.7rem + 0.5vw);
+	gap: var(--s-1);
+	font-weight: 600;
+	background-color: inherit;
+	color: currentColor;
+}

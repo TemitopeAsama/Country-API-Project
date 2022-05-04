@@ -1,0 +1,19 @@
+
+main {
+	height: 100%;
+	background-color: var(--bg);
+}
+
+.card__list {
+	min-height: 100vh;
+	padding: 0 calc(var(--s0) + 3vw);
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+	gap: var(--s3);
+	padding-block-end: var(--s1);
+	background-color: var(--bg);
+}
+
+.card__list a {
+	text-decoration: none;
+}

@@ -1,0 +1,15 @@
+input[type="search"] {
+	position: relative;
+	color: var(--text);
+	padding: var(--s-1) var(--s0) var(--s-1) var(--s3);
+	width: calc(15rem + 4vw);
+	border: none;
+	border-radius: 3px;
+	box-shadow: var(--nav-shadow);
+	font-size: calc(0.6rem + 0.25vw);
+	background-color: var(--element);
+	background-image: var(--bg-search);
+	background-repeat: no-repeat;
+	background-size: calc(1rem + 0.25vw);
+	background-position: 8% 50%;
+}
