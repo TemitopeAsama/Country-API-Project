@@ -3,11 +3,11 @@
 	background-color: var(--element);
 	box-shadow: var(--nav-shadow);
 	padding: var(--s-1) var(--s3) var(--s-1) var(--s0);
-	font-size: calc(.6rem + 0.25vw);
+	font-size: calc(.9rem + 0.25vw);
     border-radius: 3px;
 	background-image: var(--bg-filter);
 	background-repeat: no-repeat;
-	background-size: calc(.9rem + 0.25vw);
+	background-size: calc(.6rem + 0.25vw);
 	background-position: 90% 50%;
 	border: none;
 	-moz-appearance: none;
