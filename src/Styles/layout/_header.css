@@ -2,14 +2,14 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: calc(var(--s-1) + 1vw) calc(var(--s0) + 3vw);
+	padding: calc(var(--s0) + 1vw) calc(var(--s0) + 3vw);
 	background-color: var(--element);
 	color: var(--text);
 	box-shadow: var(--header-shadow);
 }
 
 header > h2 {
-	font-size: calc(.6rem + 1vw);
+	font-size: calc(.8rem + 1vw);
 	font-weight: 800;
 }
 
