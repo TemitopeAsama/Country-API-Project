@@ -8,6 +8,7 @@ const Navbar = ({
 	searchTerm,
 	filterParam,
 }) => {
+
 	return (
 		<nav>
 			<Search

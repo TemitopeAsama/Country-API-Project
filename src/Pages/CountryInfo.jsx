@@ -23,6 +23,7 @@ const CountryInfo = ({ searchedCountries }) => {
 	const countryDetails = searchedCountries.find(
 		(country) => country.name.common === id
 	);
+	console.log(countryDetails);
 
 	return (
 		<div className='country__details'>
@@ -113,9 +114,12 @@ const CountryInfo = ({ searchedCountries }) => {
 						<div className='border__btn'>
 							{countryDetails?.borders
 								? Object.values(countryDetails.borders).map((border) => {
+
 										let borderDetails = searchedCountries.find(
 											(borderCountry) => borderCountry.cca3 === border
+
 										);
+										console.log(borderDetails);
 										return (
 											<Link
 												key={border}

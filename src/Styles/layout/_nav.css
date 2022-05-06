@@ -1,8 +1,15 @@
-nav {
-    padding: calc(var(--s-1) + 2vw) calc(var(--s0) + 3vw);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: var(--s1);
-    flex-wrap: wrap;
+nav{
+	width: 100%;
+	padding: calc(var(--s-1) + 2vw) calc(var(--s0) + 3vw);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: var(--s1);
+	flex-wrap: wrap;
 }
+
+/* .nav__scrolled {
+	position: fixed;
+	top: 0;
+	width: 100%;
+} */
