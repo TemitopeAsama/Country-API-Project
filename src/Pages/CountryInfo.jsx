@@ -133,7 +133,7 @@ const CountryInfo = ({ searchedCountries }) => {
 											</Link>
 										);
 								  })
-								: ""}
+								: "None"}
 						</div>
 					</section>
 				</div>
