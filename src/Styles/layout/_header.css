@@ -8,8 +8,13 @@ header {
 	box-shadow: var(--header-shadow);
 }
 
-header > h2 {
-	font-size: calc(.8rem + 1vw);
+header a {
+	text-decoration: none;
+	color: inherit;
+}
+
+header h2 {
+	font-size: calc(0.8rem + 1vw);
 	font-weight: 800;
 }
 
@@ -18,7 +23,7 @@ header > button {
 	align-items: center;
 	justify-content: space-around;
 	border: none;
-	font-size: calc(.7rem + 0.5vw);
+	font-size: calc(0.7rem + 0.5vw);
 	gap: var(--s-1);
 	font-weight: 600;
 	background-color: inherit;
